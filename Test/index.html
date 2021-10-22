@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href ="body-style.css">
+    <link rel ="stylesheet" href ="header-style.css">
+    <link rel ="stylesheet" href ="content-style.css">
+    <link rel ="stylesheet" href ="aside-style.css">
+    <title>Vue.js Intern Vlad Berezhnoy</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header_container">
+                <div class="header_image_container">
+                    <img class="header_image" src="images/Shapes@2x.png" alt="image">
+                </div>
+                <div class="header_title">
+                    <h1>Website Redesign</h1>
+                </div>
+                <button class="grey_round">
+                    <span class="centre_point"></span>
+                </button>
+                <div class="user_image_container">
+                    <img class="user_image" src="images/photo-a.png" alt="image">
+                </div>
+                <div class="user_image_container">
+                    <img class="user_image" src="images/photo-b.jpg" alt="image">
+                </div>
+                <div class="user_image_container">
+                    <img class="user_image" src="images/photo-c.jfif" alt="image">
+                </div>
+                <button class="share_button">Share</button>
+                <button class="chat_button">
+                    <span class="chat_name">Chat</span>
+                </button>
+            </div>
+            <nav class="nav">
+                <a class ="nav_link" href="#">Tasks</a>
+                <a class ="nav_link" href="#">Kanban</a>
+                <a class ="nav_link active" href="#">Activity</a>
+                <a class ="nav_link" href="#">Calendar</a>
+                <a class ="nav_link" href="#">Files</a>
+            </nav>
+        </header>
+        
+            <div class="content">
+            <div class="content_container">
+                <div class="today">Today</div>
+                
+                <div class="message_container first">
+                <div class="content_round green">
+                </div>
+                <div class="content_text">
+                    <p>Darika Samak mark as done Listing on Product Hunt 
+                    so that we can reach as many potential users</p>
+                </div>
+                    <time class="time-right" datetime="2021-10-14T08:40+03:00">8:40 PM</time>
+                </div>
+
+                <div class="message_container second">
+                <div class="content_round yellow">
+                </div>
+                <div class="content_text">
+                    <p>Emilee Simchenko commented on Account for teams and personal in bottom style</p>
+                </div>
+                    <time class="time-right" datetime="2021-10-14T08:40+03:00">7:32 PM</time>
+                </div>
+                <div class="grey_container">
+                    <div class="inner_text">
+                    <p>During a project build, it is necessary to evaluate the product design and development against project requirements and outcomes</p>
+                    </div>
+                </div>
+                <div class="message_container third">
+                <div class="content_round blue">
+                </div>
+                <div class="content_text">
+                    <p>Darika Samak uploaded 4 files on An option to search in current projects or in all projects</p>
+                </div>
+                    <time class="time-right" datetime="2021-10-14T08:40+03:00">6:02 PM</time>
+                    </div>
+                    <div class="inner_container">
+                    <div class="image_container">
+                        <img class="image_content1" src="images/image_1.jpg" alt="image">
+                        <img class="image_content2" src="images/image_2.jpg" alt="image">
+                        <img class="image_content3" src="images/image_3.jpg" alt="image">
+                        <img class="image_content4" src="images/image_4.jpg" alt="image">
+                     </div>
+                </div>
+            </div>
+            </div>
+        <div class="aside">
+            <div class="aside_header">
+                <div class="aside_header_content">
+                     <img src="images/Logo@3x.svg" alt="image"></div>
+                <div class="projectus">Projectus</div>
+                     <div class="search"></div>
+                </div>
+                <div class="product_owner">
+                <div class="owner_image">
+                     <img class="photo" src="images/images.jfif" alt="image">
+                </div>
+                <div class="aside_name_container">
+                <div class="person_name">Jean Gonzales</div>
+                <div class="person_position">Product Owner</div>    
+                </div>
+                <div class="points">
+                <div class="point"></div>
+                <div class="point"></div>
+                <div class="point"></div>
+                </div>
+                </div>
+                <div class="tasks_container">
+                <div class="tasks_number completed" id="comp_tasks">372</div>
+                <div class="tasks_number open" id="open_tasks">11</div>
+                </div>
+                <div class="tasks_container_2">
+                <a class="completed_tasks" type="button" id="btn" href="#" >Completed Tasks</a>
+                <div class="open_tasks">Open Tasks</div>
+                </div>
+                <div class="sidebar_nav">
+                <div class="menu">
+                    <a class="sidebar_button_menu" href="#">Menu</a>
+                </div>
+                 <div class="other_navs">
+                    <a class="sidebar_button" href="#">Home</a>
+                    </div>
+                 <div class="other_navs">
+                    <a class="sidebar_button" href="#">My Tasks</a>
+                    </div>
+                </div>
+                    <div class="notif_container">
+                    <div class="notification_text">
+                        <a class="sidebar_button" href="#">Notifications</a>
+                    </div>
+                    <button class="notification_round" id="num">3</button>
+                    </div>
+                </div>
+            </div>
+            <script src="script1.js"></script>
+            <script src="script2.js"></script>
+            <script src="script3.js"></script>
+</body>
+</html>
